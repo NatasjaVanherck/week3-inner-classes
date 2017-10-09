@@ -11,7 +11,7 @@ public class Gearbox {
 	
 	public Gearbox(int gears){
 		this.maxGears = gears;
-		for(int i = 0; i < maxGears; i++){
+		for(int i = 0; i <= maxGears; i++){
 			addGear(new Gear(i, (i*5.3)));
 		}
 	}
